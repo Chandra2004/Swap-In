@@ -1,5 +1,3 @@
----
-
 ## Slide 1: Judul Presentasi
 - **Judul**: SwapIn - Marketplace Jual Beli dan Tukar Barang Berbasis Poin
 - **Penjelasan**: Presentasi ini dirancang untuk memberikan gambaran menyeluruh mengenai desain dan arsitektur sistem SwapIn, sebuah platform inovatif berbasis digital yang memungkinkan pengguna untuk melakukan transaksi jual beli serta pertukaran barang menggunakan sistem poin sebagai pengganti mata uang konvensional. SwapIn tidak hanya menawarkan fungsionalitas dasar seperti unggah barang dan penilaian poin, tetapi juga mengintegrasikan fitur gamifikasi dan moderasi oleh admin untuk meningkatkan pengalaman pengguna. Diagram UML yang disajikan dalam presentasi ini akan membantu memahami alur kerja, struktur data, dan interaksi antar komponen sistem secara visual dan terstruktur.
