@@ -1,0 +1,53 @@
+---
+
+## Slide 1: Judul Presentasi
+- **Judul**: SwapIn - Marketplace Jual Beli dan Tukar Barang Berbasis Poin
+- **Penjelasan**: Presentasi ini dirancang untuk memberikan gambaran menyeluruh mengenai desain dan arsitektur sistem SwapIn, sebuah platform inovatif berbasis digital yang memungkinkan pengguna untuk melakukan transaksi jual beli serta pertukaran barang menggunakan sistem poin sebagai pengganti mata uang konvensional. SwapIn tidak hanya menawarkan fungsionalitas dasar seperti unggah barang dan penilaian poin, tetapi juga mengintegrasikan fitur gamifikasi dan moderasi oleh admin untuk meningkatkan pengalaman pengguna. Diagram UML yang disajikan dalam presentasi ini akan membantu memahami alur kerja, struktur data, dan interaksi antar komponen sistem secara visual dan terstruktur.
+- **Tanggal**: 10 Juni 2025
+- **Layout**: Letakkan judul di bagian atas dengan font besar dan tebal (ukuran 28-32), tambahkan logo atau gambar ikon marketplace di sudut kiri atas, gunakan latar belakang biru muda untuk kesan profesional, dan sisipkan garis pemisah tipis di bawah judul.
+
+---
+
+## Slide 2: Diagram Use Case
+- **Judul**: Diagram Use Case SwapIn
+- **Penjelasan**: Diagram Use Case ini menggambarkan secara rinci interaksi antara berbagai aktor dalam sistem SwapIn, termasuk User, Admin, Kurir, dan AI System, dengan fungsi-fungsi utama seperti Login/Register, Upload Barang, Verifikasi Akun, Tukar Barang dengan Poin, serta fitur tambahan seperti Wishlist dan Review & Rating. Untuk aktor Admin, diagram ini mencakup tanggung jawab seperti Moderasi Konten, Verifikasi Barang, dan Penilaian Poin, sementara Kurir bertugas mengelola proses pengiriman dan AI mendukung analisis barang. Diagram ini sangat penting untuk mengidentifikasi kebutuhan fungsional sistem, memastikan semua skenario penggunaan tercakup, dan menjadi dasar untuk pengembangan lebih lanjut, termasuk integrasi dengan layanan eksternal seperti API kurir.
+- **Pengertian**: Diagram Use Case adalah alat visual dalam pemodelan berorientasi objek yang digunakan untuk menggambarkan interaksi antara aktor (pengguna atau sistem eksternal) dengan sistem yang sedang dikembangkan. Diagram ini menyoroti use case atau kasus penggunaan, yang mencakup tindakan yang dapat dilakukan aktor, serta hubungan seperti *include* dan *extend* untuk menunjukkan dependensi atau variasi fungsi.
+- **Link**: [https://www.plantuml.com/plantuml/dsvg/TP51JmCX48Nl_0fEnXwQ_WFJ6c-hoQQrUZJJCiN9mj0CeF7VksneG-Dw8-zxFDuBwvX0KlPEmJ45qVk8KeyRuudhkSj25tr7CQ7_wD4Vu0S4MAboIo-N3_h-ELZYrHPjCScY8MyeTA818kdDaBb5-xCBOFHZ2RCjUCq3IDMrGRR0kWzqS_cTugUZc5fjYr-4t_fERo7HRUGBEZZ2eFinZOGyZ65gcbfvC2YbP1SuuGWRraoeNLiw9f83kbPiq2x7CxAPXgzchdReWeEfayqCSwo312xOwyDg-f9g2NmYyQLNYG1_80TyiRRENaB4s8vlwVvi8A7U9KZvrgJ-VFhConUq-CzT4elaQ5IUe0nT8vlitIy0](https://www.plantuml.com/plantuml/dsvg/TP51JmCX48Nl_0fEnXwQ_WFJ6c-hoQQrUZJJCiN9mj0CeF7VksneG-Dw8-zxFDuBwvX0KlPEmJ45qVk8KeyRuudhkSj25tr7CQ7_wD4Vu0S4MAboIo-N3_h-ELZYrHPjCScY8MyeTA818kdDaBb5-xCBOFHZ2RCjUCq3IDMrGRR0kWzqS_cTugUZc5fjYr-4t_fERo7HRUGBEZZ2eFinZOGyZ65gcbfvC2YbP1SuuGWRraoeNLiw9f83kbPiq2x7CxAPXgzchdReWeEfayqCSwo312xOwyDg-f9g2NmYyQLNYG1_80TyiRRENaB4s8vlwVvi8A7U9KZvrgJ-VFhConUq-CzT4elaQ5IUe0nT8vlitIy0)
+- **Layout**: Tempatkan judul di atas dengan font tebal (ukuran 24), penjelasan dan pengertian dalam dua kotak teks terpisah di tengah (ukuran font 16-18), link di bawah dalam warna biru dan dapat diklik. Sisipkan diagram dari link menggunakan plugin PlantUML atau gambar SVG yang diunduh.
+
+---
+
+## Slide 3: Diagram Activity
+- **Judul**: Diagram Activity SwapIn
+- **Penjelasan**: Diagram Activity ini menyajikan alur kerja lengkap yang dialami pengguna dalam sistem SwapIn, dimulai dari proses Login/Register, Verifikasi Akun, hingga tahap lanjutan seperti Upload Barang, Menunggu Verifikasi, dan Proses Pengiriman. Diagram ini mencakup keputusan penting seperti apakah barang terverifikasi atau tidak, serta langkah tambahan seperti pengumpulan poin jika saldo tidak mencukupi. Fitur seperti Notifikasi Kurir dan Konfirmasi Penerimaan Barang juga diilustrasikan, menunjukkan integrasi dengan layanan logistik. Diagram ini berguna untuk memahami dinamika proses bisnis dan mengoptimalkan alur kerja, memastikan efisiensi dan kejelasan dalam setiap tahap transaksi.
+- **Pengertian**: Diagram Activity adalah representasi grafis dari alur proses atau aktivitas dalam sebuah sistem, yang menunjukkan langkah-langkah yang harus dilalui, keputusan yang diambil (misalnya, *if-else*), dan transisi antar aktivitas. Diagram ini membantu dalam merancang dan memverifikasi logika bisnis serta mengidentifikasi titik potensial untuk otomatisasi.
+- **Link**: [https://www.plantuml.com/plantuml/svg/NP51Q_Cm38Rl-HKwVRIdxvuSrgqz3BgEKjh1ZYfHN65R3h8zsB-VtImTv6AaztqaI_Oc9jIKlMlkGTE-1SFo_qI6OoBjclQ3b0Us61cURPQYN4ONi8SNL1HJyWD95cCo_A4FamTOJJ6SIRyUmDCQqeq4Lf-uRW3QcK4_ieEUOOy9NJ1TDO_i-0Q_I9QKBUoudAZLhbSS0mjiiytZed6jrX0fmf7y5RzhZsxItqEQfzrdPUqMk1XMzWzy7sHWzHKl7bKBPTvpGYuEOz7-mGaJJogvIB0wSuzs7eVgMmd2AsgES2XfzcDs5WNg6lSgwNbe5hNjZg-a35jCc2fC4XpQEk34nnJ6PbFY-fq_](https://www.plantuml.com/plantuml/svg/NP51Q_Cm38Rl-HKwVRIdxvuSrgqz3BgEKjh1ZYfHN65R3h8zsB-VtImTv6AaztqaI_Oc9jIKlMlkGTE-1SFo_qI6OoBjclQ3b0Us61cURPQYN4ONi8SNL1HJyWD95cCo_A4FamTOJJ6SIRyUmDCQqeq4Lf-uRW3QcK4_ieEUOOy9NJ1TDO_i-0Q_I9QKBUoudAZLhbSS0mjiiytZed6jrX0fmf7y5RzhZsxItqEQfzrdPUqMk1XMzWzy7sHWzHKl7bKBPTvpGYuEOz7-mGaJJogvIB0wSuzs7eVgMmd2AsgES2XfzcDs5WNg6lSgwNbe5hNjZg-a35jCc2fC4XpQEk34nnJ6PbFY-fq_)
+- **Layout**: Judul di atas, penjelasan dan pengertian dalam dua kotak teks di tengah, link di bawah dalam warna biru dan dapat diklik. Sisipkan diagram dari link.
+
+---
+
+## Slide 4: Diagram Class
+- **Judul**: Diagram Class SwapIn
+- **Penjelasan**: Diagram Class ini menguraikan struktur data sistem SwapIn dengan mendefinisikan kelas-kelas utama seperti User, Barang, Transaksi, dan tambahan seperti Wishlist, VerifikasiBarang, serta Badge untuk mendukung gamifikasi. Setiap kelas dilengkapi dengan atribut (misalnya, `id`, `poin`, `status`) dan metode (seperti `login()`, `tukarBarang()`), serta hubungan seperti "User mengunggah 0 atau lebih Barang" atau "Transaksi terkait dengan 1 SistemPembayaran". Diagram ini menjadi fondasi untuk desain basis data dan pengembangan kode, memastikan konsistensi dan skalabilitas sistem, serta mendukung integrasi dengan fitur seperti pelacakan kurir melalui atribut `tracking_number`.
+- **Pengertian**: Diagram Class adalah bagian dari pemodelan UML yang menggambarkan struktur statis sebuah sistem, termasuk kelas, atribut, metode, dan relasi antar kelas (seperti asosiasi, agregasi, atau komposisi). Diagram ini digunakan untuk merancang arsitektur perangkat lunak dan basis data.
+- **Link**: [https://www.plantuml.com/plantuml/svg/ZLBBJiCm4BpdArOv0LKhkFQ0AiIDIwN21mp4MAlOcyYxEI34lqFSo2bgU9nYpOvd9hFUgI7P44Fr4g1AJ-eIlLT4Q-9cIooMpuA8BQab5fy15y7X6z9tBFC514JO2M55eVCi5vVvFFIXGtE71F4JP4EBL92FQWfqHFuJgN7Q9kwLVucb1Xkq48hBOu8eMkK58uDuZx2b1kOML38KdNMDsxluZBSnyRd5mv3uxsgB-jw9vyHnbfgA6rCSCkMqfWEhkJZxPwCLjPsySefGdaTJtxqJFsA18VSG7DNo_kkRcjRhMwglDvkhUbh1ugZqLXr9FyuNR-TAgi8fuw_lsGzLEoVD-4u_0G00](https://www.plantuml.com/plantuml/svg/ZLBBJiCm4BpdArOv0LKhkFQ0AiIDIwN21mp4MAlOcyYxEI34lqFSo2bgU9nYpOvd9hFUgI7P44Fr4g1AJ-eIlLT4Q-9cIooMpuA8BQab5fy15y7X6z9tBFC514JO2M55eVCi5vVvFFIXGtE71F4JP4EBL92FQWfqHFuJgN7Q9kwLVucb1Xkq48hBOu8eMkK58uDuZx2b1kOML38KdNMDsxluZBSnyRd5mv3uxsgB-jw9vyHnbfgA6rCSCkMqfWEhkJZxPwCLjPsySefGdaTJtxqJFsA18VSG7DNo_kkRcjRhMwglDvkhUbh1ugZqLXr9FyuNR-TAgi8fuw_lsGzLEoVD-4u_0G00)
+- **Layout**: Judul di atas, penjelasan dan pengertian dalam dua kotak teks di tengah, link di bawah dalam warna biru dan dapat diklik. Sisipkan diagram.
+
+---
+
+## Slide 5: Diagram Sequence
+- **Judul**: Diagram Sequence SwapIn
+- **Penjelasan**: Diagram Sequence ini mengilustrasikan alur komunikasi antar komponen sistem SwapIn, meliputi Frontend, Backend, Database, Admin, AI System, Courier API, dan Market API, dalam berbagai proses seperti Autentifikasi, Upload Barang, Negosiasi Poin, Tukar Barang, Pelacakan Pengiriman, serta Review dan Gamifikasi. Misalnya, saat pengguna mengunggah barang, data dikirim ke Backend, dianalisis oleh AI dengan data pasar dari Market API, dan divalidasi oleh Admin sebelum ditampilkan di katalog. Diagram ini menyoroti urutan waktu pesan dan integrasi eksternal, yang krusial untuk memastikan sinkronisasi dan keandalan sistem dalam skenario real-time, termasuk pemberian badge sebagai bagian dari gamifikasi.
+- **Pengertian**: Diagram Sequence adalah diagram UML yang menampilkan interaksi antar objek dalam sistem berdasarkan urutan waktu, dengan fokus pada pesan yang dikirim dan diterima. Diagram ini membantu memahami dinamika runtime dan koordinasi antar komponen, terutama dalam sistem yang kompleks dengan banyak aktor.
+- **Link**: [https://www.plantuml.com/plantuml/svg/RP91Ry8m38Nl_HKMXsaSzWSuJ11rND0c12rtGmEpsgILuqxQlv_JjLkpSKF-Nkpt7bq7GPRUDHbUf6KeW-Miqn5Tg4CliDXowyNwQW4OOFkIGeENUcBc3yjHy8p13Z0tATnKZln0DlbhYdOz4mzeLnvITAGWri7UkZD-8kFtXkC-ow9lU7fMWx22icjQhC14nItJaG8JmOwO74HZ4pG3p8t28pczCW9ur6Aa3oleD1_vstAKgbtLlhL2Lwen49miJp_7dPbgffDp_0255UngFR9loSzlbrs5Ol_T5iiVF--NQSYYhv7lP3nXGvNAPpUqeHY-zLTYfsXMOAPeV3cRWh7yhiBcJZ-5ye1re97fdvGKeclyBVQiovL5IVGzDv1e8lpTKzWudM8bWOsYsDq1XPIjhQ_YT_i5](https://www.plantuml.com/plantuml/svg/RP91Ry8m38Nl_HKMXsaSzWSuJ11rND0c12rtGmEpsgILuqxQlv_JjLkpSKF-Nkpt7bq7GPRUDHbUf6KeW-Miqn5Tg4CliDXowyNwQW4OOFkIGeENUcBc3yjHy8p13Z0tATnKZln0DlbhYdOz4mzeLnvITAGWri7UkZD-8kFtXkC-ow9lU7fMWx22icjQhC14nItJaG8JmOwO74HZ4pG3p8t28pczCW9ur6Aa3oleD1_vstAKgbtLlhL2Lwen49miJp_7dPbgffDp_0255UngFR9loSzlbrs5Ol_T5iiVF--NQSYYhv7lP3nXGvNAPpUqeHY-zLTYfsXMOAPeV3cRWh7yhiBcJZ-5ye1re97fdvGKeclyBVQiovL5IVGzDv1e8lpTKzWudM8bWOsYsDq1XPIjhQ_YT_i5)
+- **Layout**: Judul di atas, penjelasan dan pengertian dalam dua kotak teks di tengah, link di bawah dalam warna biru dan dapat diklik. Sisipkan diagram.
+
+---
+
+## Slide 6: Penutup
+- **Judul**: Terima Kasih
+- **Penjelasan**: Terima kasih telah mengikuti presentasi mengenai desain sistem SwapIn. Platform ini dirancang untuk merevolusi cara pengguna bertransaksi melalui sistem poin yang inovatif, dengan dukungan teknologi canggih seperti AI dan integrasi logistik. Kami mengundang masukan dan pertanyaan untuk pengembangan lebih lanjut. Semoga presentasi ini memberikan wawasan berharga mengenai potensi SwapIn di era digital.
+- **Kontak**: [example@email.com](mailto:example@email.com)
+- **Layout**: Judul besar di tengah dengan font tebal (ukuran 28), penjelasan di bawah dalam kotak teks (ukuran 18), kontak di bagian bawah dengan ikon email dan warna kontras (misalnya, hijau).
+
+---
