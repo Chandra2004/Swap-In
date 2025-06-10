@@ -9,6 +9,10 @@ SwapIn is a digital barter marketplace that allows users to buy, sell, and excha
 - **Date**: June 10, 2025
 - **Version**: 2.0
 
+  ```
+  https://www.plantuml.com/plantuml
+  ```
+
 ---
 
 ## Table of Contents
