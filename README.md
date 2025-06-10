@@ -1,42 +1,43 @@
-SwapIn - Marketplace Jual Beli dan Tukar Barang Berbasis Poin
+# SwapIn - Marketplace Jual Beli dan Tukar Barang Berbasis Poin
 
-Gambaran Umum
-SwapIn adalah sebuah marketplace digital yang memungkinkan pengguna untuk membeli, menjual, dan menukar barang menggunakan sistem poin sebagai pengganti mata uang konvensional. Proyek ini bertujuan untuk menciptakan sebuah platform yang ramah pengguna, dilengkapi dengan fitur gamifikasi, moderasi oleh admin, serta integrasi dengan layanan eksternal seperti API kurir dan data harga pasar.
+## Overview
 
-Nama Proyek: Marketplace Jual Beli Barang dan Bisa Tukar Barang Berbasis Poin
-Nama Aplikasi: SwapIn
-Tanggal: 10 Juni 2025
-Versi: 2.0
+SwapIn is a digital barter marketplace that allows users to buy, sell, and exchange goods using a point-based system instead of traditional currency. This project aims to create a user-friendly platform with gamification features, admin moderation, and integration with external services like courier APIs and market price data.
 
+- **Project Name**: Marketplace Jual Beli Barang dan Bisa Tukar Barang Berbasis Poin
+- **Application Name**: SwapIn
+- **Date**: June 10, 2025
+- **Version**: 2.0
 
-Table of Contents
+---
 
-Diagrams
-Version 1 Diagrams
-Use Case Diagram
-Activity Diagram
-Class Diagram
-Sequence Diagram
+## Table of Contents
 
+- Diagrams
+  - Version 1 Diagrams
+    - Use Case Diagram
+    - Activity Diagram
+    - Class Diagram
+    - Sequence Diagram
+  - Version 2 Diagrams
+    - Use Case Diagram
+    - Activity Diagram
+    - Class Diagram
+    - Sequence Diagram
+- Installation
+- Usage
+- Contributing
+- License
 
-Version 2 Diagrams
-Use Case Diagram
-Activity Diagram
-Class Diagram
-Sequence Diagram
+---
 
+## Diagrams
 
+### Version 1 Diagrams
 
+#### Use Case Diagram V1
 
-Installation
-Usage
-Contributing
-License
-
-
-Diagrams
-Version 1 Diagrams
-Use Case Diagram V1
+```plantuml
 @startuml
 actor User
 actor Admin
@@ -65,8 +66,11 @@ Kurir --> (Update Status Pengiriman)
 Sistem_Pembayaran --> (Konfirmasi Pembayaran)
 Sistem_Pembayaran --> (Pengembalian Dana)
 @enduml
+```
 
-Activity Diagram V1
+#### Activity Diagram V1
+
+```plantuml
 @startuml
 start
 :Login/Register;
@@ -90,8 +94,11 @@ else (Tidak)
 endif
 stop
 @enduml
+```
 
-Class Diagram V1
+#### Class Diagram V1
+
+```plantuml
 @startuml
 class User {
   - id: int
@@ -137,8 +144,11 @@ Barang "1" --> "0..*" Transaksi
 User "1" --> "0..*" Kurir
 Transaksi "1" --> "1" SistemPembayaran
 @enduml
+```
 
-Sequence Diagram V1
+#### Sequence Diagram V1
+
+```plantuml
 @startuml
 actor User
 participant "Frontend" as FE
@@ -165,9 +175,13 @@ KUR -> User : Konfirmasi Pengiriman
 User -> KUR : Terima Barang
 User -> FE : Berikan Rating
 @enduml
+```
 
-Version 2 Diagrams
-Use Case Diagram V2
+### Version 2 Diagrams
+
+#### Use Case Diagram V2
+
+```plantuml
 @startuml
 actor User
 actor Admin
@@ -237,8 +251,11 @@ note left of Courier
   F3.2: Integrasi API kurir (JNE, SiCepat)
 end note
 @enduml
+```
 
-Activity Diagram V2
+#### Activity Diagram V2
+
+```plantuml
 @startuml
 start
 
@@ -304,8 +321,11 @@ end fork
 
 stop
 @enduml
+```
 
-Class Diagram V2
+#### Class Diagram V2
+
+```plantuml
 @startuml
 class User {
   - id: int
@@ -433,8 +453,11 @@ note right of Misi
   misi mingguan
 end note
 @enduml
+```
 
-Sequence Diagram V2
+#### Sequence Diagram V2
+
+```plantuml
 @startuml
 actor User
 participant "Frontend" as FE
@@ -520,3 +543,6 @@ note right
   Gamifikasi: Poin bonus, badge
 end note
 @enduml
+```
+
+---
